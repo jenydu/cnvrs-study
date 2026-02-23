@@ -1,2 +1,2 @@
-# CNVRS-study
+# cnvrs-study
 
