@@ -10,3 +10,5 @@ archive/
 data/
 output_figs/misc/
 R/old/
+session_info.txt
+.DS_Store
