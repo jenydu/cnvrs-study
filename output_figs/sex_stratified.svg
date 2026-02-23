@@ -209,7 +209,7 @@
 <text x='115.37' y='123.76' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='30.59px' lengthAdjust='spacingAndGlyphs'>(n=348)</text>
 <text x='115.37' y='78.59' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='83.16px' lengthAdjust='spacingAndGlyphs'>Overall Amyloid Load</text>
 <text x='115.37' y='88.10' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='30.59px' lengthAdjust='spacingAndGlyphs'>(n=347)</text>
-<text x='115.37' y='42.93' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='57.72px' lengthAdjust='spacingAndGlyphs'>Tangle Density</text>
+<text x='115.37' y='42.93' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='34.71px' lengthAdjust='spacingAndGlyphs'>PHF-Tau</text>
 <text x='115.37' y='52.43' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='30.59px' lengthAdjust='spacingAndGlyphs'>(n=347)</text>
 <text transform='translate(155.98,253.23) rotate(-45)' text-anchor='end' style='font-size: 8.00px;fill: #4D4D4D; font-family: "Arial";' textLength='34.24px' lengthAdjust='spacingAndGlyphs'>pLI (DEL)</text>
 <text transform='translate(208.70,253.23) rotate(-45)' text-anchor='end' style='font-size: 8.00px;fill: #4D4D4D; font-family: "Arial";' textLength='35.56px' lengthAdjust='spacingAndGlyphs'>pLI (DUP)</text>
@@ -427,7 +427,7 @@
 <text x='115.37' y='435.57' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='30.59px' lengthAdjust='spacingAndGlyphs'>(n=663)</text>
 <text x='115.37' y='390.40' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='83.16px' lengthAdjust='spacingAndGlyphs'>Overall Amyloid Load</text>
 <text x='115.37' y='399.91' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='30.59px' lengthAdjust='spacingAndGlyphs'>(n=658)</text>
-<text x='115.37' y='354.74' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='57.72px' lengthAdjust='spacingAndGlyphs'>Tangle Density</text>
+<text x='115.37' y='354.74' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='34.71px' lengthAdjust='spacingAndGlyphs'>PHF-Tau</text>
 <text x='115.37' y='364.24' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='30.59px' lengthAdjust='spacingAndGlyphs'>(n=654)</text>
 <text transform='translate(155.98,565.04) rotate(-45)' text-anchor='end' style='font-size: 8.00px;fill: #4D4D4D; font-family: "Arial";' textLength='34.24px' lengthAdjust='spacingAndGlyphs'>pLI (DEL)</text>
 <text transform='translate(208.70,565.04) rotate(-45)' text-anchor='end' style='font-size: 8.00px;fill: #4D4D4D; font-family: "Arial";' textLength='35.56px' lengthAdjust='spacingAndGlyphs'>pLI (DUP)</text>

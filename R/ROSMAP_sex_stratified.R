@@ -144,7 +144,7 @@ p_t_val_calculation <- function(scoreWithPheno, lst_risk_scores, str_scores,
   p_t_val[p_t_val == "loeuf_del"] <- "LOEUF (DEL)"
   p_t_val[p_t_val == "loeuf_dup"] <- "LOEUF (DUP)"
 
-  p_t_val[p_t_val == "sqrt(tangles)"] <- 'Tangle Density'
+  p_t_val[p_t_val == "sqrt(tangles)"] <- 'PHF-Tau'
   p_t_val[p_t_val == "sqrt(amyloid)"] <- 'Overall Amyloid Load'
   p_t_val[p_t_val == "cvda_4gp2"] <- "Cerebral\nAtherosclerosis Rating"
   p_t_val[p_t_val == "cogn_global"] <- "Global Cognitive Function"
@@ -170,7 +170,7 @@ scoreWithPheno_f <- scoreWithPheno[which(scoreWithPheno$msex==0),]
 p_t_val_f <- p_t_val_calculation(scoreWithPheno_f, lst_risk_scores, str_scores,
                                  lst_pheno_autop, lst_pheno_cog)
 
-p_t_val_f[p_t_val_f == 'Tangle Density'] <- 'Tangle Density\n(n=654)'
+p_t_val_f[p_t_val_f == 'PHF-Tau'] <- 'PHF-Tau\n(n=654)'
 p_t_val_f[p_t_val_f == 'Overall Amyloid Load'] <- 'Overall Amyloid Load\n(n=658)'
 p_t_val_f[p_t_val_f == "Cerebral\nAtherosclerosis Rating"] <- "Cerebral Atherosclerosis\nRating\n(n=656)"
 p_t_val_f[p_t_val_f == "Global Cognitive Function"] <- "Global Cognitive Function\n(n=663)"
@@ -181,7 +181,7 @@ scoreWithPheno_m <- scoreWithPheno[which(scoreWithPheno$msex==1),]
 p_t_val_m <- p_t_val_calculation(scoreWithPheno_m, lst_risk_scores, str_scores,
                                  lst_pheno_autop, lst_pheno_cog)
 
-p_t_val_m[p_t_val_m == 'Tangle Density'] <- 'Tangle Density\n(n=347)'
+p_t_val_m[p_t_val_m == 'PHF-Tau'] <- 'PHF-Tau\n(n=347)'
 p_t_val_m[p_t_val_m == 'Overall Amyloid Load'] <- 'Overall Amyloid Load\n(n=347)'
 p_t_val_m[p_t_val_m == "Cerebral\nAtherosclerosis Rating"] <- "Cerebral Atherosclerosis\nRating\n(n=348)"
 p_t_val_m[p_t_val_m == "Global Cognitive Function"] <- "Global Cognitive Function\n(n=348)"
@@ -332,7 +332,7 @@ sex_interactions_anova <- function(scoreWithPheno, lst_risk_scores,
   p_t_val[p_t_val == "loeuf_del"] <- "LOEUF (DEL)"
   p_t_val[p_t_val == "loeuf_dup"] <- "LOEUF (DUP)"
 
-  p_t_val[p_t_val == "sqrt(tangles)"] <- 'Tangle Density'
+  p_t_val[p_t_val == "sqrt(tangles)"] <- 'PHF-Tau'
   p_t_val[p_t_val == "sqrt(amyloid)"] <- 'Overall Amyloid Load'
   p_t_val[p_t_val == "cvda_4gp2"] <- "Cerebral\nAtherosclerosis Rating"
   p_t_val[p_t_val == "cogn_global"] <- "Global Cognitive Function"

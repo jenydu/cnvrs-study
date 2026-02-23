@@ -146,7 +146,7 @@ rename_mappings <- c(
   "loeuf_del" = "LOEUF (DEL)",
   "loeuf_dup" = "LOEUF (DUP)",
 
-  "sqrt(tangles)" = "Tangle Density\n(n=1001)",
+  "sqrt(tangles)" = "PHF-Tau\n(n=1001)",
   "sqrt(amyloid)" = "Overall Amyloid Load\n(n=1005)",
   "cvda_4gp2" = "Cerebral Atherosclerosis\nRating\n(n=1004)",
   "cogn_global" = "Global Cognitive Function\n(n=1011)",
@@ -260,7 +260,7 @@ p1 <- ggplot(scoreWithPheno, aes(x = loeuf_dup, y = sqrt(tangles))) +
   geom_point(size = 1, color = '#000000BB', stroke = NA) +
   geom_smooth(method = lm) + theme_bw() +
   xlab('LOEUF Score (DUP)') +
-  ylab('Tangles Density')
+  ylab('PHF-Tau')
 
 p2 <- ggplot(scoreWithPheno, aes(x = pTS_thresh, y = sqrt(tangles)))  +
   geom_smooth(method = lm) + theme_bw() +
