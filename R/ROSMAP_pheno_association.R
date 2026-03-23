@@ -177,7 +177,7 @@ pheno_heatmap <- ggplot(data = p_t_val, aes(x=risk_score, y=phenotype, fill=t_va
   geom_tile(color = "white")+
   scale_fill_gradient2(low = "blue", high = "red", mid = "white",
                        midpoint = 0, limit = c(-6,6), space = "Lab", name="t-statistic") +
-  theme_minimal() + xlab('Risk Score') + ylab('Phenotype') +
+  theme_minimal() + xlab('CNV-S') + ylab('Phenotype') +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 12, hjust = 1)) +
   # '*'
   geom_text(aes(risk_score, phenotype, label = if_else(p_val < 0.05 & p_val_adj >= 0.05, paste0(sprintf(sprintf("%.3f", t_val)), "*"), ' ')),
@@ -206,8 +206,8 @@ forest_plot <- ggplot(data=p_t_val, aes(y=phenotype, x=standardized_beta,
                      name = 'Standardized Effect (Beta Coefficient)') +
   scale_y_discrete(name = "Phenotypic Outcomes") +
   theme_minimal() +
-  scale_color_discrete(name = "CNV-RS") +
-  scale_fill_discrete(name = "CNV-RS") +
+  scale_color_discrete(name = "CNV-S") +
+  scale_fill_discrete(name = "CNV-S") +
   theme(legend.position = "bottom") +
   # adding the stars '*'/'**'
   geom_text(aes(x = ci_up, label = Annotation), hjust = -1, vjust=0.7,
@@ -245,7 +245,7 @@ cvda_plots <- lapply(seq_along(variables), function(i) {
 })
 
 arranged_plots <- ggarrange(plotlist = cvda_plots, common.legend = TRUE, legend = "bottom") %>%
-  annotate_figure(left = text_grob("CNV-RS", rot = 90, x = unit(0, "npc"), y = unit(0.6, "npc")),
+  annotate_figure(left = text_grob("CNV-S", rot = 90, x = unit(0, "npc"), y = unit(0.6, "npc")),
                   top = NULL, bottom = NULL, right = NULL) +
   theme(plot.margin = margin(0, 0, 0, 0.5, "cm"))
 

@@ -205,7 +205,7 @@ plot_m <- ggplot(data = p_t_val_m, aes(x=factor(risk_score, level = rs_order), y
   scale_fill_gradient2(low = "blue", high = "red", mid = "white",
                        midpoint = 0, limit = c(-4,4), space = "Lab", name="t-statistic") +
   theme_minimal()+
-  xlab('CNV-RS')+
+  xlab('CNV-S')+
   ylab('Outcomes')+
   ggtitle('Male')+
   theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 12, hjust = 1))+
@@ -219,7 +219,7 @@ plot_f <- ggplot(data = p_t_val_f, aes(x=factor(risk_score, level = rs_order), y
   scale_fill_gradient2(low = "blue", high = "red", mid = "white",
                        midpoint = 0, limit = c(-4,4), space = "Lab", name="t-statistic") +
   theme_minimal()+
-  xlab('CNV-RS')+
+  xlab('CNV-S')+
   ylab('Outcomes')+
   ggtitle('Female')+
   theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 12, hjust = 1))+

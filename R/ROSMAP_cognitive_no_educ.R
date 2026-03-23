@@ -180,7 +180,7 @@ pheno_heatmap <- ggplot(data = p_t_val, aes(x = risk_score, y = phenotype, fill 
   geom_tile(color = "white") +
   scale_fill_gradient2(low = "blue", high = "red", mid = "white",
                        midpoint = 0, limit = c(-6, 6), space = "Lab", name = "t-statistic") +
-  theme_minimal() + xlab('Risk Score') + ylab('Phenotype') +
+  theme_minimal() + xlab('CNV-S') + ylab('Phenotype') +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 12, hjust = 1)) +
   geom_text(aes(risk_score, phenotype, label = if_else(p_val < 0.05 & p_val_adj >= 0.05, paste0(sprintf("%.3f", t_val), "*"), ' ')),
             color = "grey30", size = 3.5) +
@@ -208,8 +208,8 @@ forest_plot <- ggplot(data = p_t_val, aes(y = phenotype, x = standardized_beta,
                     name = 'Standardized Effect (Beta Coefficient)') +
   scale_y_discrete(name = "Phenotypic Outcomes") +
   theme_minimal() +
-  scale_color_discrete(name = "CNV-RS") +
-  scale_fill_discrete(name = "CNV-RS") +
+  scale_color_discrete(name = "CNV-S") +
+  scale_fill_discrete(name = "CNV-S") +
   theme(legend.position = "bottom") +
   geom_text(aes(x = ci_up, label = Annotation), hjust = -1, vjust = 0.7,
             position = position_dodge(width = 0.5), size = 5, color = 'black') +
@@ -260,7 +260,7 @@ plot_m <- ggplot(data = p_t_val_m, aes(x = factor(risk_score, level = rs_order),
   geom_tile(color = "white") +
   scale_fill_gradient2(low = "blue", high = "red", mid = "white",
                        midpoint = 0, limit = c(-4, 4), space = "Lab", name = "t-statistic") +
-  theme_minimal() + xlab('CNV-RS') + ylab('Outcomes') + ggtitle('Male') +
+  theme_minimal() + xlab('CNV-S') + ylab('Outcomes') + ggtitle('Male') +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 12, hjust = 1)) +
   geom_text(aes(risk_score, phenotype, label = if_else(p_val < 0.05 & p_val_adj >= 0.05, paste0(sprintf("%.2f", t_val), "*"), ' ')),
             color = "black", size = 3.5) +
@@ -271,7 +271,7 @@ plot_f <- ggplot(data = p_t_val_f, aes(x = factor(risk_score, level = rs_order),
   geom_tile(color = "white") +
   scale_fill_gradient2(low = "blue", high = "red", mid = "white",
                        midpoint = 0, limit = c(-4, 4), space = "Lab", name = "t-statistic") +
-  theme_minimal() + xlab('CNV-RS') + ylab('Outcomes') + ggtitle('Female') +
+  theme_minimal() + xlab('CNV-S') + ylab('Outcomes') + ggtitle('Female') +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 12, hjust = 1)) +
   geom_text(aes(risk_score, phenotype, label = if_else(p_val < 0.05 & p_val_adj >= 0.05, paste0(sprintf("%.2f", t_val), "*"), ' ')),
             color = "black", size = 3.5) +
@@ -348,12 +348,12 @@ write.csv(sex_int, 'output_tables_no_educ/sex_stratified_outputs.csv', row.names
 message("Saved: output_tables_no_educ/sex_stratified_outputs.csv")
 
 ################################################################################
-# 4. PRS ASSOCIATION (CNV-RS vs AD PRS) - cognitive only
+# 4. PGS ASSOCIATION (CNV-S vs AD PGS) - cognitive only
 ################################################################################
 
 prs_file <- "data/raw/raw_score_kunkle_full.tsv"
 if (!file.exists(prs_file)) {
-  message("Skipping PRS analysis: ", prs_file, " not found")
+  message("Skipping PGS analysis: ", prs_file, " not found")
 } else {
   scoreWithPheno_prs <- readRDS('data/scoreWithPheno.rds')
   scoreWithPheno_prs$cogdx_binom <- scoreWithPheno_prs$cogdx
