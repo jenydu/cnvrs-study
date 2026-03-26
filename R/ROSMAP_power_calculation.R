@@ -234,7 +234,6 @@ write.csv(power_strat, "output_tables/power_posthoc_sex_stratified.csv", row.nam
 # Summary for manuscript / reviewer response
 ################################################################################
 
-sink("output_tables/power_posthoc_summary.txt")
 cat("================================================================================\n")
 cat("ROSMAP CNV-S Post-Hoc Power Analysis Summary\n")
 cat("================================================================================\n\n")
@@ -318,9 +317,7 @@ cat("  Yuan & Maxwell (2005) J Educ Behav Stat 30:141-167. DOI:10.3102/107699860
 cat("  Walters (2008) Pharm Stat 8:163-169. DOI:10.1002/pst.334\n")
 cat("  Greenland (2012) Ann Epidemiol 22:364-368.\n")
 cat("================================================================================\n")
-sink()
 
 message("Post-hoc power analysis complete. Outputs saved to output_tables/")
 message("  - power_posthoc_main.csv")
 message("  - power_posthoc_sex_stratified.csv")
-message("  - power_posthoc_summary.txt")
