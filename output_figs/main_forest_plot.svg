@@ -183,31 +183,31 @@
 <text x='491.86' y='626.44' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='12.22px' lengthAdjust='spacingAndGlyphs'>0.2</text>
 <text x='342.75' y='638.91' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='183.78px' lengthAdjust='spacingAndGlyphs'>Standardized Effect (Beta Coefficient)</text>
 <text transform='translate(13.36,310.34) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='107.69px' lengthAdjust='spacingAndGlyphs'>Phenotypic Outcomes</text>
-<text x='179.72' y='681.62' style='font-size: 11.00px; font-family: "Arial";' textLength='41.55px' lengthAdjust='spacingAndGlyphs'>CNV-RS</text>
-<line x1='228.47' y1='666.30' x2='242.30' y2='666.30' style='stroke-width: 1.49; stroke: #F8766D; stroke-linecap: butt;' />
-<circle cx='235.38' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #F8766D; fill: #F8766D;' />
-<line x1='228.47' y1='689.06' x2='242.30' y2='689.06' style='stroke-width: 1.49; stroke: #CD9600; stroke-linecap: butt;' />
-<polygon points='231.83,692.62 238.94,692.62 238.94,685.51 231.83,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #CD9600;' />
-<line x1='295.80' y1='666.30' x2='309.63' y2='666.30' style='stroke-width: 1.49; stroke: #7CAE00; stroke-linecap: butt;' />
-<circle cx='302.72' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #7CAE00; fill: #7CAE00;' />
-<line x1='295.80' y1='689.06' x2='309.63' y2='689.06' style='stroke-width: 1.49; stroke: #00BE67; stroke-linecap: butt;' />
-<polygon points='299.16,692.62 306.27,692.62 306.27,685.51 299.16,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #00BE67;' />
-<line x1='380.26' y1='666.30' x2='394.09' y2='666.30' style='stroke-width: 1.49; stroke: #00BFC4; stroke-linecap: butt;' />
-<circle cx='387.17' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #00BFC4; fill: #00BFC4;' />
-<line x1='380.26' y1='689.06' x2='394.09' y2='689.06' style='stroke-width: 1.49; stroke: #00A9FF; stroke-linecap: butt;' />
-<polygon points='383.62,692.62 390.73,692.62 390.73,685.51 383.62,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #00A9FF;' />
-<line x1='424.64' y1='666.30' x2='438.47' y2='666.30' style='stroke-width: 1.49; stroke: #C77CFF; stroke-linecap: butt;' />
-<circle cx='431.55' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #C77CFF; fill: #C77CFF;' />
-<line x1='424.64' y1='689.06' x2='438.47' y2='689.06' style='stroke-width: 1.49; stroke: #FF61CC; stroke-linecap: butt;' />
-<polygon points='428.00,692.62 435.11,692.62 435.11,685.51 428.00,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #FF61CC;' />
-<text x='249.50' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='37.62px' lengthAdjust='spacingAndGlyphs'>pLI (DEL)</text>
-<text x='249.50' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='39.09px' lengthAdjust='spacingAndGlyphs'>pLI (DUP)</text>
-<text x='316.84' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='54.75px' lengthAdjust='spacingAndGlyphs'>LOEUF (DEL)</text>
-<text x='316.84' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='56.22px' lengthAdjust='spacingAndGlyphs'>LOEUF (DUP)</text>
-<text x='401.29' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='13.69px' lengthAdjust='spacingAndGlyphs'>pHI</text>
-<text x='401.29' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='16.14px' lengthAdjust='spacingAndGlyphs'>pTS</text>
-<text x='445.67' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='57.66px' lengthAdjust='spacingAndGlyphs'>pHI (binarized)</text>
-<text x='445.67' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='60.11px' lengthAdjust='spacingAndGlyphs'>pTS (binarized)</text>
+<text x='183.69' y='681.62' style='font-size: 11.00px; font-family: "Arial";' textLength='33.61px' lengthAdjust='spacingAndGlyphs'>CNV-S</text>
+<line x1='224.50' y1='666.30' x2='238.33' y2='666.30' style='stroke-width: 1.49; stroke: #F8766D; stroke-linecap: butt;' />
+<circle cx='231.41' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #F8766D; fill: #F8766D;' />
+<line x1='224.50' y1='689.06' x2='238.33' y2='689.06' style='stroke-width: 1.49; stroke: #CD9600; stroke-linecap: butt;' />
+<polygon points='227.86,692.62 234.97,692.62 234.97,685.51 227.86,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #CD9600;' />
+<line x1='291.84' y1='666.30' x2='305.66' y2='666.30' style='stroke-width: 1.49; stroke: #7CAE00; stroke-linecap: butt;' />
+<circle cx='298.75' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #7CAE00; fill: #7CAE00;' />
+<line x1='291.84' y1='689.06' x2='305.66' y2='689.06' style='stroke-width: 1.49; stroke: #00BE67; stroke-linecap: butt;' />
+<polygon points='295.19,692.62 302.30,692.62 302.30,685.51 295.19,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #00BE67;' />
+<line x1='376.29' y1='666.30' x2='390.12' y2='666.30' style='stroke-width: 1.49; stroke: #00BFC4; stroke-linecap: butt;' />
+<circle cx='383.20' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #00BFC4; fill: #00BFC4;' />
+<line x1='376.29' y1='689.06' x2='390.12' y2='689.06' style='stroke-width: 1.49; stroke: #00A9FF; stroke-linecap: butt;' />
+<polygon points='379.65,692.62 386.76,692.62 386.76,685.51 379.65,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #00A9FF;' />
+<line x1='420.67' y1='666.30' x2='434.50' y2='666.30' style='stroke-width: 1.49; stroke: #C77CFF; stroke-linecap: butt;' />
+<circle cx='427.58' cy='666.30' r='3.56' style='stroke-width: 0.71; stroke: #C77CFF; fill: #C77CFF;' />
+<line x1='420.67' y1='689.06' x2='434.50' y2='689.06' style='stroke-width: 1.49; stroke: #FF61CC; stroke-linecap: butt;' />
+<polygon points='424.03,692.62 431.14,692.62 431.14,685.51 424.03,685.51 ' style='stroke-width: 0.71; stroke: none; fill: #FF61CC;' />
+<text x='245.53' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='37.62px' lengthAdjust='spacingAndGlyphs'>pLI (DEL)</text>
+<text x='245.53' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='39.09px' lengthAdjust='spacingAndGlyphs'>pLI (DUP)</text>
+<text x='312.87' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='54.75px' lengthAdjust='spacingAndGlyphs'>LOEUF (DEL)</text>
+<text x='312.87' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='56.22px' lengthAdjust='spacingAndGlyphs'>LOEUF (DUP)</text>
+<text x='397.32' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='13.69px' lengthAdjust='spacingAndGlyphs'>pHI</text>
+<text x='397.32' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='16.14px' lengthAdjust='spacingAndGlyphs'>pTS</text>
+<text x='441.70' y='669.45' style='font-size: 8.80px; font-family: "Arial";' textLength='57.66px' lengthAdjust='spacingAndGlyphs'>pHI (binarized)</text>
+<text x='441.70' y='692.21' style='font-size: 8.80px; font-family: "Arial";' textLength='60.11px' lengthAdjust='spacingAndGlyphs'>pTS (binarized)</text>
 </g>
 </g>
 </svg>
