@@ -9,14 +9,14 @@
 # explicitly checked whether any CNVs in this dataset overlap the APOE locus
 # to rule out potential confounding.
 #
-# APOE genomic coordinates (GRCh38/hg38):
-#   Chromosome 19: 44,905,754 – 44,909,393
+# APOE genomic coordinates (GRCh37/hg19):
+#   Chromosome 19: 45,409,011 - 45,412,650
 #   Ensembl gene ID: ENSG00000130203
 #   NCBI Gene ID: 348  |  HGNC: 613
 #
 # References for APOE locus coordinates:
-#   Ensembl Release 112 (GRCh38.p14):
-#     https://useast.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000130203
+#   Ensembl GRCh37 Archive:
+#     https://grch37.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000130203
 #   NCBI Gene entry 348:
 #     https://www.ncbi.nlm.nih.gov/gene/348
 #
@@ -36,12 +36,12 @@ if (!file.exists("data/raw/CNVcalls.tsv")) {
 
 
 # ---------------------------------------------------------------------------
-# APOE locus definition (GRCh38/hg38)
+# APOE locus definition (GRCh37/hg19)
 #   Ensembl ENSG00000130203 | NCBI Gene 348
 # ---------------------------------------------------------------------------
 APOE_CHR   <- 19L
-APOE_START <- 44905754L
-APOE_END   <- 44909393L
+APOE_START <- 45409011L
+APOE_END   <- 45412650L
 APOE_GENE  <- "APOE"
 
 # Flanking window used for a secondary "wide" check (500 kb each side)
@@ -121,7 +121,7 @@ cat("===========================================================================
 cat("APOE Locus CNV Overlap Check — ROSMAP Dataset\n")
 cat("================================================================================\n\n")
 
-cat("APOE GENE COORDINATES (GRCh38/hg38)\n")
+cat("APOE GENE COORDINATES (GRCh37/hg19)\n")
 cat("-------------------------------------\n")
 cat(sprintf("  Gene:        %s\n", APOE_GENE))
 cat(sprintf("  Chromosome:  %d\n", APOE_CHR))
@@ -167,8 +167,8 @@ print(nearest_5)
 
 cat("\nREFERENCES\n")
 cat("----------\n")
-cat("  APOE coordinates: Ensembl Release 112, GRCh38.p14 (ENSG00000130203)\n")
-cat("    https://useast.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000130203\n")
+cat("  APOE coordinates: Ensembl GRCh37 Archive (ENSG00000130203)\n")
+cat("    https://grch37.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000130203\n")
 cat("  APOE gene entry:  NCBI Gene ID 348\n")
 cat("    https://www.ncbi.nlm.nih.gov/gene/348\n")
 cat("  APOE & AD risk:   Corder et al. (1993) Science 261:921-923.\n")
